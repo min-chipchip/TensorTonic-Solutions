@@ -7,7 +7,7 @@ def matrix_transpose(A):
 
     n = len(A)
     m = len(A[0])
-    matrix = np.array([[0 for _ in range(n)] for _ in range(m)])
+    matrix = np.zeros((m,n))
 
     for i in range(0, n):
         for j in range(0, m):
